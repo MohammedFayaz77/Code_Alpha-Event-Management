@@ -1,0 +1,35 @@
+================================================================================
+EVENT MANAGEMENT (TASK 3) - HOW TO RUN
+================================================================================
+
+STEP 1: In 1st PowerShell window (Backend Server)
+------------------------------------------------
+cd "C:\Users\fayaz\OneDrive\Documents\Code_Alpha Fayaz Event Management\server"
+
+$env:PATH = "C:\Program Files\nodejs;" + [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+npm.cmd run dev
+
+
+STEP 2: In 2nd PowerShell window (Frontend Website)
+---------------------------------------------------
+cd "C:\Users\fayaz\OneDrive\Documents\Code_Alpha Fayaz Event Management\client"
+
+$env:PATH = "C:\Program Files\nodejs;" + [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
+npm.cmd run dev
+
+Open browser at: http://localhost:5173
+
+
+STEP 3: 1-Click Login Accounts
+------------------------------
+👑 Fayaz (Lead Director) — fayaz@eventflow.io / Fayaz@123 (Full Owner & Admin access)
+🎬 Sarah (Stage & AV Lead) — sarah.chen@eventflow.io / Password@123
+🚚 Alex (Logistics Lead) — alex.morgan@eventflow.io / Password@123
+🥂 Priya (VIP Hospitality) — priya.sharma@eventflow.io / Password@123
+
+
+STEP 4: To Close Safely
+-----------------------
+Press: ctrl+c
+Then press: Y
+================================================================================
